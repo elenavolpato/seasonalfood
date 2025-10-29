@@ -34,14 +34,65 @@ There is a online web version [here](https://fuzue.tech/seasonalfood/). The home
 
 ## Contribute
 
-### How to build
+This project is built with modern web technologies and cross-platform mobile development tools. Here's how to get started:
 
-1. npm i
-2. npm run build
+### Prerequisites
 
-### Build Android app
+- **Node.js** (v16 or higher)
+- **npm** or **yarn** package manager
+- For Android development: **Android SDK** and **Android Studio**
 
-First you do need to have Android SDK and Android Studio installed. After that you can open the project in Android Studio with:
+### Tech Stack
 
-1. npm run build-app
-2. ANDROID_SDK=the-path-top-android-sdk CAPACITOR_ANDROID_STUDIO_PATH=the-path-to-android-studio/bin/studio.sh npm run run-app-android
+- **Frontend**: React 18 with TypeScript
+- **Build Tool**: Vite 4
+- **UI Library**: Material-UI (MUI) v5
+- **Mobile App**: Capacitor 7 for cross-platform deployment
+- **Internationalization**: i18next with multi-language support (EN, IT, PT)
+- **Search**: Fuse.js for fuzzy search functionality
+- **Data Processing**: Papa Parse for CSV handling
+
+### Development Setup
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+2. **Start development server:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+4. **Lint code:**
+   ```bash
+   npm run lint
+   ```
+
+### Building the Android App
+
+1. **Build app bundle:**
+   ```bash
+   npm run build-app
+   ```
+
+2. **Open in Android Studio:**
+   ```bash
+   ANDROID_SDK=/path/to/android-sdk CAPACITOR_ANDROID_STUDIO_PATH=/path/to/android-studio/bin/studio.sh npm run run-app-android
+   ```
+
+### Project Structure
+
+- `src/` - Main React/TypeScript source code
+- `public/` - Static assets and CSV data files
+- `android/` - Capacitor Android project files
+- `components/` - Reusable React components
+- `contexts/` - React context providers
+- `routes/` - Application routing components
