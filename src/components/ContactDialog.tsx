@@ -30,7 +30,7 @@ export default function ContactDialog() {
             color="inherit"
             onClick={(e) => {
               e.preventDefault();
-              openExternalLink("https://seasonalfood.fuzue.tech/");
+              openExternalLink("https://seasonalfood.raposinha.dev/");
             }}
           >
             {/* {t("ContactDialog_text2")} */}
@@ -41,7 +41,7 @@ export default function ContactDialog() {
             sx={{ fontWeight: 800 }}
             onClick={(e) => {
               e.preventDefault();
-              openExternalLink("https://github.com/fuzue/seasonalfood");
+              openExternalLink("https://github.com/elenavolpato/seasonalfood/");
             }}
           >
             {" "}
@@ -52,9 +52,9 @@ export default function ContactDialog() {
             <Link
               underline="hover"
               sx={{ fontWeight: 800 }}
-              href="mailto:contact@fuzue.tech"
+              href="mailto:elena@raposinha.dev"
             >
-              contact@fuzue.tech
+              elena@raposinha.dev             
             </Link>
           </Box>
           <Box sx={{ display: "flex", justifyContent: "start", mt: 1 }}>
@@ -64,7 +64,7 @@ export default function ContactDialog() {
               sx={{ fontWeight: 800 }}
               onClick={(e) => {
                 e.preventDefault();
-                openExternalLink("https://github.com/fuzue/seasonalfood");
+                openExternalLink("https://github.com/elenavolpato/seasonalfood");
               }}
             >
               GitHub Repo

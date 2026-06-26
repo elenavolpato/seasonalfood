@@ -1,7 +1,7 @@
 import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "org.fuzue.seasonalfood",
+  appId: "dev.raposinha.seasonalfood",
   appName: "Seasonal Food",
   webDir: "build",
   bundledWebRuntime: false,
