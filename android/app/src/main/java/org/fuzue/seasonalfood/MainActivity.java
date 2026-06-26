@@ -1,4 +1,4 @@
-package org.fuzue.seasonalfood;
+package dev.raposinha.seasonalfood;
 
 import com.getcapacitor.BridgeActivity;
 
